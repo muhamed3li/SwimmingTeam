@@ -1,0 +1,235 @@
+* {
+    transition: all 0.5s;
+}
+
+body {
+    color: #999
+}
+
+.font-1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #444;
+
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.logo-1 {
+    width: 50px;
+}
+
+.home-clr {
+    color: #45c8dc !important;
+    border: 3px solid #45c8dc !important;
+}
+
+nav {
+    border-bottom: 1px solid #d9d9d9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    transition: all .2s;
+    border: 3px solid transparent;
+}
+
+.navbar-nav .nav-link:hover {
+
+    border: 3px solid #45c8dc;
+    color: #45c8dc !important;
+}
+
+.in-nav {
+    padding-left: 100px;
+
+}
+
+.history {
+    background: #f4f4f4;
+
+}
+
+.history .history-caption p {
+    background-color: #45c8dc;
+}
+
+.history .history-caption .cap-h h1 {
+    position: relative;
+}
+
+.history .history-caption h1:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    width: 39px;
+    height: 3px;
+    background: #d9d9d9;
+}
+
+.history .history-caption h1:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    width: 39px;
+    height: 3px;
+    background: #d9d9d9;
+}
+
+.team {
+    border-bottom: 3px solid #d9d9d9;
+}
+
+.team .row {
+    margin-right: 0;
+
+}
+
+.advantage .row {
+    margin-right: 0;
+
+}
+
+.team .row .team-bg {
+    background-image: url(../images/About/page-2_img01.jpg);
+    background-size: cover;
+    height: 615px;
+
+}
+
+
+.team .row .team-bg .caption2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    text-align: center;
+    padding: 15px 40px 10px 40px;
+    bottom: 30px;
+    right: 0px;
+    letter-spacing: 2px;
+}
+
+.team a h3 {
+    transition: all .4s;
+}
+
+.team a h3:hover {
+    color: #45c8dc;
+}
+
+.team a:hover {
+    text-decoration: none;
+}
+
+.team img {
+    transition: all 0s;
+    border: 3px solid transparent;
+}
+
+.team img:hover {
+    border: 3px solid #45c8dc;
+}
+
+.goals {
+    background: #f4f4f4;
+
+}
+
+.goals .goals-caption p {
+    background-color: #45c8dc;
+}
+
+.goals .goals-caption .cap-h h1 {
+    position: relative;
+}
+
+.goals .goals-caption h1:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    width: 39px;
+    height: 3px;
+    background: #d9d9d9;
+}
+
+.goals .goals-caption h1:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    width: 39px;
+    height: 3px;
+    background: #d9d9d9;
+}
+
+.advantage {
+    border-bottom: 3px solid #f4f4f4;
+}
+
+.advantage .row {
+    margin-right: 0;
+
+}
+
+.advantage .row .advantage-bg {
+    background-image: url(../images/About/page-2_img06.jpg);
+    background-size: cover;
+    height: 650px;
+
+}
+
+
+.advantage .row .advantage-bg .caption2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    text-align: center;
+    padding: 15px 40px 10px 40px;
+    bottom: 30px;
+    left: 0px;
+    letter-spacing: 2px;
+}
+
+.our-advantage p {
+    font-size: 18px;
+}
+
+.advandage-icons i {
+    color: #fff;
+    background-color: #45c8dc;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.advandage-icons a {
+    text-decoration: none;
+    color: #444;
+    transition: all .3s;
+    font-size: 19px;
+}
+
+.advandage-icons a:hover {
+    color: #45c8dc;
+}
+
+.copyright {
+    background-image: url(../images/About/page-1_img11.jpg);
+    height: 100px;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.copyright p {
+    font-size: 19px;
+}

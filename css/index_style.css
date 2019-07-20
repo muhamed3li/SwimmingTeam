@@ -1,0 +1,500 @@
+* {
+    transition: all .5s 0s;
+}
+
+body {
+    color: #999
+}
+
+.font-1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.h-color {
+    color: #444
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.logo-1 {
+    width: 50px;
+}
+
+.logo {
+    letter-spacing: 2px;
+}
+
+.home-clr {
+    color: #45c8dc !important;
+    border: 3px solid #45c8dc !important;
+}
+
+nav {
+    border-bottom: 1px solid #d9d9d9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    transition: all .2s;
+    border: 3px solid transparent;
+}
+
+.navbar-nav .nav-link:hover {
+
+    border: 3px solid #45c8dc;
+    color: #45c8dc !important;
+}
+
+.in-nav {
+    padding-left: 100px;
+
+}
+
+.bg-rgba {
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.section1 {
+    background: #f4f4f4;
+    border-top: 3px solid #d9d9d9;
+    border-bottom: 3px solid #d9d9d9;
+}
+
+.section1 .section1-caption p {
+    background-color: #45c8dc;
+}
+
+.section1 .section1-caption .cap-h h1 {
+    position: relative;
+}
+
+.section1 .section1-caption h1:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    width: 39px;
+    height: 3px;
+    background: #d9d9d9;
+}
+
+.section1 .section1-caption h1:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    width: 39px;
+    height: 3px;
+    background: #d9d9d9;
+}
+
+.section1 .row .swim-bg {
+    background-image: url(../images/page-1_img01.jpg);
+    background-size: cover;
+    height: 620px;
+}
+
+section1 .row,
+.row {
+    margin-right: 0px !important;
+}
+
+.section1 .row .swim-bg .caption {
+    background-color: rgba(255, 255, 255, .7);
+    width: 270px;
+    text-align: center;
+    padding: 24px 0;
+    bottom: 40px;
+    left: 61%;
+    letter-spacing: 2px;
+}
+
+
+.section1 .row .row .col-sm-12 .media .icon1 {
+    background: url(../images/page-1_icons.png) no-repeat 0 0;
+}
+
+.section1 .row .row .col-sm-12 .media .icons1 .icon1 {
+    width: 98px;
+    height: 98px;
+    transition: all .3s ease;
+}
+
+.section1 .row .row .col-sm-12 .media:hover .icon1 {
+    background-position: 0px -98px;
+}
+
+.section1 .row .row .col-sm-12 .media .icon2 {
+    background: url(../images/page-1_icons.png) no-repeat -98px 0px;
+}
+
+.section1 .row .row .col-sm-12 .media .icons2 .icon2 {
+    width: 98px;
+    height: 98px;
+    transition: all .3s;
+}
+
+.section1 .row .row .col-sm-12 .media:hover .icon2 {
+    background-position: -98px -98px;
+}
+
+.section1 .row .row .col-sm-12 .media .icon3 {
+    background: url(../images/page-1_icons.png) no-repeat -196px 0px;
+}
+
+.section1 .row .row .col-sm-12 .media .icons3 .icon3 {
+    width: 98px;
+    height: 98px;
+    transition: all .3s;
+}
+
+.section1 .row .row .col-sm-12 .media:hover .icon3 {
+    background-position: -196px -98px;
+}
+
+
+
+.section1 .row .row .col-sm-12 .media .media-body h2 {
+    transition: all .3s;
+}
+
+.section1 .row .row .col-sm-12 .media .media-body h2:hover {
+    color: #45c8dc;
+}
+
+.section2 {
+    background: #f4f4f4;
+}
+
+.section2 .section2-caption p {
+    background-color: #45c8dc;
+}
+
+.section2 .section2-caption .cap-h h1 {
+    position: relative;
+}
+
+.section2 .section2-caption h1:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    width: 39px;
+    height: 3px;
+    background: #d9d9d9;
+}
+
+.section2 .section2-caption h1:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    width: 39px;
+    height: 3px;
+    background: #d9d9d9;
+}
+
+.section2 .container .row .col-md-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section2 .container .row .col-md-3 .card-deck .span1 {
+    transition: all 0s;
+    color: #45c8dc;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-card .span2 {
+    transition: all 0s;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-card:hover .span2 {
+    color: #fff;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-card:hover .span1 {
+    color: #fff;
+}
+
+.section2 .container .row .col-md-3 .card-deck:hover .span2 {
+    color: #fff;
+}
+
+.section2 .container .row .col-md-3 .card-deck:hover .span1 {
+    color: #fff;
+}
+
+
+.section2 .container .row .col-md-3 .card-deck .bg-card {
+    transition: all 0s;
+
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-card:hover {
+    background-color: #45c8dc;
+
+}
+
+.section2 .container .row .col-md-3 .card-deck:hover .bg-card {
+    background-color: #45c8dc;
+}
+
+
+.section2 .container .row .col-md-3 .card-deck a {
+    text-decoration: none;
+    color: #666;
+    transition: all .5s ease 0s !important;
+}
+
+.section2 .container .row .col-md-3 .card-deck a h4:hover {
+    color: #45c8dc !important;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-card {
+    background-color: #fff;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs {
+    position: relative;
+
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs:after {
+    content: "";
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    border-left: 10px solid #f4f4f4;
+    border-right: 10px solid #f4f4f4;
+    border-top: 10px solid transparent;
+
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs .bottom-space-left {
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    background-color: #f4f4f4;
+    bottom: 0;
+    left: 0;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs .bottom-space-right {
+    position: absolute;
+    width: 201.5px;
+    height: 10px;
+    background-color: #f4f4f4;
+    bottom: 0;
+    right: 0;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs .opasty {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s all;
+    background-color: rgba(200, 255, 255, .7);
+
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs .opasty:hover {
+    opacity: 1;
+
+}
+
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs .opasty:after {
+    content: "+";
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -22px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font: 600 30px "FontAwesome";
+    margin-top: -20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs {
+    position: relative;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs img {
+    transition: all .5s;
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+.section2 .container .row .col-md-3 .card-deck .bg-imgs {
+    overflow: hidden;
+}
+
+.section2 .r-l .fa {
+    transition: all 0s;
+    color: #45c8dc;
+    border: 2px solid #45c8dc;
+}
+
+.section2 .r-l .fa:hover {
+    background-color: #45c8dc;
+    color: #fff;
+}
+
+.section3 {
+    border-bottom: 3px solid #d9d9d9;
+}
+
+.section3 .row .swim-bg2 {
+    background-image: url(../images/page-1_img10.jpg);
+    background-size: cover;
+    height: 615px;
+
+}
+
+
+.section3 .row .swim-bg2 .caption2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    text-align: center;
+    padding: 15px 40px;
+    bottom: 30px;
+    left: 0px;
+    letter-spacing: 2px;
+}
+
+.section3 a {
+    transition: all 0s;
+}
+
+.section3 a:hover {
+    color: #45c8dc;
+    text-decoration: none;
+}
+
+.section3 img {
+    transition: all 0s;
+    border: 3px solid transparent;
+}
+
+.section3 img:hover {
+    border: 3px solid #45c8dc;
+}
+
+.section4 .section4-caption p {
+    background-color: #45c8dc;
+}
+
+.section4 .section4-caption h1 {
+    position: relative;
+}
+
+.section4 .section4-caption h1:after {
+    content: "";
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 39px;
+    height: 3px;
+    top: 50%;
+    left: -60px;
+}
+
+.section4 .section4-caption h1:before {
+    content: "";
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 39px;
+    height: 3px;
+    top: 50%;
+    right: -60px;
+}
+
+.section5 {
+    background-image: url(../images/page-1_img11.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.section5 .section5-caption p {
+    background-color: #45c8dc;
+}
+
+.section5 .section5-caption h1 {
+    position: relative;
+}
+
+.section5 .section5-caption h1:after {
+    content: "";
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 39px;
+    height: 3px;
+    top: 50%;
+    left: -60px;
+}
+
+.section5 .section5-caption h1:before {
+    content: "";
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 39px;
+    height: 3px;
+    top: 50%;
+    right: -60px;
+}
+
+.section5 .container {
+    width: 30%;
+}
+
+.section5 .container input {
+    background-color: rgba(255, 255, 255, .2);
+    border: none;
+    border-radius: 0;
+
+}
+
+.section5 .container textarea {
+    background-color: rgba(255, 255, 255, .2);
+    border: none;
+    border-radius: 0;
+    resize: none;
+}
+
+.section5 .container button {
+    border: 3px solid #45c8dc;
+    border-radius: 0;
+    color: #45c8dc;
+}
+
+.section5 .container button:hover {
+    background-color: #45c8dc;
+    color: #fff;
+}
+
+.img-model {
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+}

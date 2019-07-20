@@ -1,0 +1,125 @@
+/* smart phone and tablets */
+
+@media (max-width:767px) {
+    .team .row .team-bg .caption2 {
+        bottom: 30px;
+        right: 20%;
+    }
+
+    .team .row .team-bg {
+        height: 300px;
+    }
+
+    .goals .goals-caption .cap-h h1 {
+        font-size: 30px
+    }
+
+    .goals .row {
+        padding: 0px 20px;
+    }
+
+    .our-advantage p {
+        font-size: 16px;
+    }
+
+    .our-advantage h3 {
+        font-size: 24px;
+    }
+
+    .advandage-icons a {
+        font-size: 16px;
+    }
+
+    .advandage-icons i {
+        font-size: 11px;
+    }
+
+    .advantage .row .advantage-bg {
+        height: 300px;
+    }
+
+    .advantage .row .advantage-bg .caption2 {
+        bottom: 10px;
+        left: 70px;
+    }
+
+    nav .container {
+        width: 82%;
+    }
+
+
+
+
+}
+
+/* small screen */
+
+@media (min-width:768px) and (max-width:991px) {
+    .team .row .team-bg .caption2 {
+        bottom: 70px;
+        right: 10%;
+    }
+
+    .team .row .team-bg {
+        height: 300px;
+    }
+
+
+    .goals h3 {
+        font-size: 25px
+    }
+
+    .our-advantage p {
+        font-size: 17px;
+    }
+
+    .our-advantage h3 {
+        font-size: 39px;
+    }
+
+    .advantage .row .advantage-bg {
+        height: 300px;
+    }
+
+    .advantage .row .advantage-bg .caption2 {
+        bottom: 10px;
+        left: 70px;
+    }
+
+    nav .container {
+        width: 82%;
+    }
+
+
+
+    /* medium screen */
+
+    @media (min-width:992px) and (max-width:1199px) {
+        .advantage .row .advantage-bg {
+
+            height: 650px;
+
+        }
+
+        .our-advantage p {
+            font-size: 16px;
+        }
+
+        .our-advantage h3 {
+            font-size: 25px;
+        }
+
+        .advandage-icons a {
+            font-size: 16px;
+        }
+
+        .advandage-icons i {
+            font-size: 11px;
+        }
+
+        .
+    }
+
+    /* larg screen */
+
+    @media (min-width:1200px) {}

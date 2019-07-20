@@ -1,0 +1,105 @@
+/* smart phone and tablets */
+
+@media (max-width:767px) {
+    header .slide .carousel-inner .carousel-item .d-flex .bg-rgba .fa-5x {
+        font-size: 3em;
+    }
+
+    header .slide .carousel-inner .carousel-item .d-flex .p-5 {
+        padding: 1rem !important;
+    }
+
+    .section1 .section1-caption .d-flex .fa-3x {
+        font-size: 2em;
+    }
+
+    .section1 .row .swim-bg .caption {
+        left: 43% !important;
+    }
+
+    .section3 .row .swim-bg2 .caption2 {
+        left: 90px !important;
+    }
+
+    .section5 .container {
+        width: 70% !important;
+    }
+
+    .section2 .container .row .col-md-3 .card-deck .bg-imgs .bottom-space-right {
+        width: 359px !important;
+    }
+
+    .section1 .container {
+        padding-left: 53px;
+
+    }
+
+    nav .container {
+        width: 82%;
+    }
+
+    .img-model {
+        width: 400px;
+        height: 300px;
+        padding: 5px;
+    }
+
+}
+
+
+/* small screen */
+
+@media (min-width:768px) and (max-width:991px) {
+    header .slide .carousel-inner .carousel-item .d-flex .bg-rgba .fa-5x {
+        font-size: 4em;
+    }
+
+    header .slide .carousel-inner .carousel-item .d-flex .p-5 {
+        padding: 1rem !important;
+    }
+
+    .section3 .row .swim-bg2 .caption2 {
+        left: 200px !important;
+    }
+
+    .section5 .container {
+        width: 50% !important;
+    }
+
+    .section2 .container .row .col-md-3 .card-deck .bg-imgs .bottom-space-right {
+        width: 96.5px !important;
+    }
+
+    .section2 .container .row .col-md-3 .card-deck h4 {
+        font-size: 16px !important;
+    }
+
+    .section2 .container .row .col-md-3 .card-deck p {
+        font-size: 14px !important;
+    }
+
+    nav .container {
+        width: 82%;
+    }
+
+    .img-model {
+        width: 500px;
+        height: 400px;
+    }
+
+
+
+}
+
+/* medium screen */
+
+@media (min-width:992px) and (max-width:1199px) {
+    .section2 .container .row .col-md-3 .card-deck .bg-imgs .bottom-space-right {
+        width: 156.5px !important;
+    }
+
+}
+
+/* larg screen */
+
+@media (min-width:1200px) {}

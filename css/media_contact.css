@@ -1,0 +1,53 @@
+/* smart phone and tablets */
+
+@media (max-width:767px) {
+    nav .container {
+        width: 82%;
+    }
+
+    iframe {
+        width: 450px;
+    }
+
+    .modal-content {
+        width: 70%;
+        right: 80px;
+    }
+
+}
+
+/* small screen */
+
+@media (min-width:768px) and (max-width:991px) {
+    nav .container {
+        width: 82%;
+    }
+
+    .modal-content {
+        width: 70%;
+        right: 170px;
+    }
+
+
+
+
+}
+
+/* medium screen */
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    iframe {
+        width: 480px;
+    }
+
+    .modal-content {
+        width: 80%;
+        right: 20px;
+    }
+
+}
+
+/* larg screen */
+
+@media (min-width:1200px) {}
